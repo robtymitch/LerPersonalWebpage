@@ -58,7 +58,6 @@ span{
 
 .main{
   background:url(http://img1.ak.crunchyroll.com/i/spire1/48137af6035bc836e976af9ac96353821459975764_main.png) no-repeat center center;
-  position:fixed;
   height:100%;
 }
 
@@ -149,7 +148,9 @@ span{
 .grid-list .grid-li-3{
   color:blue;
   padding-right:0px;
-  margin-right:0px;
+  margin-right:10px;
+  float:right;
+  margin-top:-60px;
 }
 
 .col-md-0{
@@ -178,7 +179,7 @@ span{
   float:right;
   text-align:left;
   font-size:15px;
-  margin:0px 15px 15px 15px;
+  margin:-284px 15px 15px 15px;
 }
 
 .col-md-2 h3{
