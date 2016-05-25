@@ -1,5 +1,6 @@
 body{
 margin:0px;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .header{
@@ -55,15 +56,10 @@ span{
   margin-right:20px;
 }
 
-.background{
-  height:500px;
-}
-
 .main{
-  background:url(http://5fd74.v.fwmrm.net/ad/l/1?s=c059&n=392564%3B392564&t=1464195749254286006&f=&r=392564&adid=15360357&reid=5192662&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=&sr=0&cr=http://www.crunchyroll.com/twin-star-exorcists"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRht2ZS2pSJPuXYbcjK9loNs2KANu0x7yph6WWbfhdZj5qNvc6gmg) no-repeat center center;
-  background-size:cover;
-  position:absolute;
-  width:100%;
+  background:url(http://img1.ak.crunchyroll.com/i/spire1/48137af6035bc836e976af9ac96353821459975764_main.png) no-repeat center center;
+  position:fixed;
+  height:100%;
 }
 
 .banner{
@@ -78,6 +74,9 @@ span{
 .grid-header{
   background-color:gray;
   margin-top:0px;
+  margin-left:10px;
+  margin-right:10px;
+  height:42px;
 }
 
 .grid-header a{
@@ -89,12 +88,24 @@ span{
 .grid-header .ul-a1{
   background-color:white;
   color:black;
-  padding:inherit;
+  padding:12px 20px;
   font-weight:bold;
+  margin-top:20px;
+  padding-top:8px;
 }
+
 .grid-header .ul-a2{
   color:white;
   font-weight:bold;
+  background-color:#3a3a3a;
+  padding:12px 20px;
+  padding-top:8px;
+}
+
+.grid-header ul{
+  margin-top:0px;
+  line-height: 43px;
+  padding-left:4px;
 }
 
 .grid-header li{
@@ -102,13 +113,54 @@ span{
   margin-bottom:0px;
 }
 
+.grid-list{
+  background-color:white;
+  margin-top:-16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height:42px;
+}
+
+.grid-list ul{
+  padding-left:0px;
+  margin-left:30px;
+  line-height: 43px;
+}
+
+.grid-list a{
+  text-decoration:none;
+}
+
+.grid-list li{
+  display:inline;
+  margin-right:5px;
+}
+
+.grid-list .grid-li-1{
+  color:black;
+  font-weight:bold;
+}
+
+.grid-list .grid-li-2{
+  color:gray;
+  font-weight:bold;
+}
+
+.grid-list .grid-li-3{
+  color:blue;
+  padding-right:0px;
+  margin-right:0px;
+}
+
 .col-md-0{
   display:inline-block;
   background-color:white;
   padding:10px 10px 0px 10px;
-  margin-left:5px;
+  margin-left:10px;
   font-size:12px;
   margin-bottom:15px;
+  margin-top:10px;
+  margin-right:0px;
 }
 
 .col-md-0 .paragraph{
@@ -125,12 +177,13 @@ span{
 .col-md-2{
   float:right;
   text-align:left;
-  font-size:17px;
+  font-size:15px;
   margin:0px 15px 15px 15px;
 }
 
 .col-md-2 h3{
   border-top:1px solid gray;
+  padding-top:15px;
 }
 
 .col-md-2 a{
