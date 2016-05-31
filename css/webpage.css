@@ -8,13 +8,6 @@ body .main .container{
   background-size: cover;
 }
 
-.header{
-  list-style: none;
-  padding: 0px;
-  height: 50px;
-
-}
-
 .left{
   float: left;
   margin-left: 80px;
@@ -22,9 +15,6 @@ body .main .container{
 
 .left img{
   margin-top: 8px;
-}
-
-.right{
 }
 
 span{
@@ -59,10 +49,6 @@ span{
 
 .form-control{
   margin-right:20px;
-}
-
-.container{
-  width:100%;
 }
 
 .banner{
