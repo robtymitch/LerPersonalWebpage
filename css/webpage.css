@@ -100,8 +100,8 @@ body .main {
 .banner{
   height:160px;
   width: 960px;
-  background: #fff;
-  margin: 13px auto;
+  margin: 0 auto;
+  padding: 13px 0;
 }
 
 .grid{
@@ -113,41 +113,38 @@ body .main {
   margin-top:0px;
   margin-left:10px;
   margin-right:10px;
-  height:42px;
 }
 
 .grid-header a{
   text-decoration:none;
-  margin:0px 1px;
   background-color:darkgray;
+  display: block;
+  padding:12px 20px;
+  padding-top:8px;
+  font-weight:bold;
+  margin: 4px 4px 0 0;
+  font-size: 14px;
 }
 
 .grid-header .ul-a1{
-  background-color:white;
   color:black;
-  padding:12px 20px;
-  font-weight:bold;
-  margin-top:20px;
-  padding-top:8px;
+  background-color:white;
 }
 
 .grid-header .ul-a2{
   color:white;
-  font-weight:bold;
   background-color:#3a3a3a;
-  padding:12px 20px;
-  padding-top:8px;
 }
 
 .grid-header ul{
-  margin-top:0px;
-  line-height: 8px;
+  margin: 0;
   padding-left:4px;
 }
 
 .grid-header li{
-  display:inline;
-  margin-bottom:0px;
+  display: block;
+  float: left;
+  margin-bottom: 0px;
 }
 
 .grid-list{
