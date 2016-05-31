@@ -66,8 +66,16 @@ span{
 
 .searchbar{
   float:right;
-  margin-top:12px;
+  margin-top:6px;
   margin-left:10px;
+
+}
+
+.searchinput{
+  background:url(../images/LookingGlass.jpg) no-repeat right 4px center;
+  padding:7px;
+  border-radius:2px;
+  border:1px solid rgb(206, 202, 202);
 }
 
 
@@ -76,7 +84,6 @@ span{
 }
 
 .grid{
-  margin:0px 200px;
   background:#E8F4F8;
 }
 
