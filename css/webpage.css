@@ -1,0 +1,235 @@
+body{
+margin:0px;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body .main .container{
+  background: url(http://img1.ak.crunchyroll.com/i/spire2/7e5d7f0990eee68532fbe643792c13eb1460582156_main.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+.header{
+  list-style: none;
+  padding: 0px;
+  height: 50px;
+
+}
+
+.left{
+  float: left;
+  margin-left: 80px;
+}
+
+.left img{
+  margin-top: 8px;
+}
+
+.right{
+}
+
+span{
+  color: orange;
+}
+
+.left-list{
+  text-align: left;
+  float: right;
+  vertical-align: middle;
+}
+
+.right .right-list{
+  text-align:center;
+}
+
+.header li{
+  display:inline;
+  padding:10px;
+  font-weight:bold;
+}
+
+.header li img{
+  margin-left:-15px;
+}
+
+
+.form-group{
+  float:right;
+  margin-top:-50px;
+}
+
+.form-control{
+  margin-right:20px;
+}
+
+.container{
+  width:100%;
+}
+
+.banner{
+  height:175px;
+}
+
+.grid{
+  margin:0px 200px;
+  background:#E8F4F8;
+}
+
+.grid-header{
+  background-color:gray;
+  margin-top:0px;
+  margin-left:10px;
+  margin-right:10px;
+  height:42px;
+}
+
+.grid-header a{
+  text-decoration:none;
+  margin:0px 1px;
+  background-color:darkgray;
+}
+
+.grid-header .ul-a1{
+  background-color:white;
+  color:black;
+  padding:12px 20px;
+  font-weight:bold;
+  margin-top:20px;
+  padding-top:8px;
+}
+
+.grid-header .ul-a2{
+  color:white;
+  font-weight:bold;
+  background-color:#3a3a3a;
+  padding:12px 20px;
+  padding-top:8px;
+}
+
+.grid-header ul{
+  margin-top:0px;
+  line-height: 8px;
+  padding-left:4px;
+}
+
+.grid-header li{
+  display:inline;
+  margin-bottom:0px;
+}
+
+.grid-list{
+  background-color:white;
+  margin-top:-16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height:42px;
+  border-bottom: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
+
+.grid-list ul{
+  padding-left:0px;
+  margin-left:30px;
+  line-height: 43px;
+}
+
+.grid-list a{
+  text-decoration:none;
+}
+
+.grid-list li{
+  display:inline;
+  margin-right:5px;
+}
+
+.grid-list .grid-li-1{
+  color:black;
+  font-weight:bold;
+}
+
+.grid-list .grid-li-2{
+  color:gray;
+  font-weight:bold;
+}
+
+.grid-list .grid-li-3{
+  color:blue;
+  padding-right:0px;
+  margin-right:10px;
+  float:right;
+  margin-top:-60px;
+}
+
+.col-md-0{
+  display:inline-block;
+  background-color:white;
+  padding:10px 9px 0px 9px;
+  margin-left:10px;
+  font-size:12px;
+  margin-bottom:5px;
+  margin-top:10px;
+  margin-right:0px;
+  border: 1px solid lightgray;
+  color:black;
+}
+
+.col-md-0 .paragraph{
+  margin-top:-10px;
+}
+
+.col-md-0 img{
+  width: 125px;
+  height: 187px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.col-md-2{
+  float:right;
+  text-align:left;
+  font-size:15px;
+  margin:-275px 15px 15px 15px;
+}
+
+.col-md-2 h3{
+  border-top:1px solid gray;
+  padding-top:15px;
+}
+
+.col-md-2 ul{
+  margin-bottom:0px;
+}
+
+.col-md-2 ul li{
+  display:inline-block;
+  color:black;
+}
+
+.col-md-2 .icon{
+  margin-bottom:4px;
+}
+
+.col-md-2 a{
+  text-decoration:none;
+  color:blue;
+}
+
+.col-md-6 {
+  border: 1px solid #ccc;
+  margin-left: 5px;
+  margin-right: 316px;
+  margin-bottom:50px;
+  text-align:center;
+  border-radius:4px;
+  text-decoration:none;
+}
+
+.col-md-6 h3{
+  color: #3f3f3f;
+  padding:0px;
+  margin:10px;
+}
+
+.row a{
+  text-decoration:none;
+}
