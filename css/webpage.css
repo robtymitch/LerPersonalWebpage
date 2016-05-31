@@ -8,6 +8,11 @@ body .main .container{
   background-size: cover;
 }
 
+.constrained {
+    margin: 0px auto 0px auto;
+    width: 1250px;
+}
+
 .left{
   float: left;
   margin-left: 80px;
