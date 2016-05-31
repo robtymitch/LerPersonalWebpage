@@ -3,9 +3,10 @@ margin:0px;
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-body .main .container{
+body .main {
   background: url(http://img1.ak.crunchyroll.com/i/spire2/7e5d7f0990eee68532fbe643792c13eb1460582156_main.jpg) no-repeat fixed;
   background-size: cover;
+  position: relative;
 }
 
 .constrained {
@@ -21,16 +22,21 @@ body .main .container{
   margin-top: 8px;
 }
 
-span{
-  color: orange;
-}
-
 .header .left-list{
   text-align: left;
   float: right;
   vertical-align: middle;
   margin-top:17px;
   font-size:14px;
+}
+
+.header .left-list a {
+    color: #000;
+    text-decoration: none;
+    position: relative;
+}
+.header .left-list a:hover, .header .left-list li.active a {
+    color: rgb(247, 140, 37);
 }
 
 .header{
@@ -42,7 +48,19 @@ span{
   padding: 0px;
 }
 
+.tryfree {
+    color: rgb(247, 140, 37);
+    font-size: 10px;
+    font-weight: normal;
+    position: absolute;
+    top: -8px;
+    right: -14px;
+}
 
+.main .constrained {
+    position: relative;
+    z-index: 2;
+}
 
 .right .right-list{
   text-align:center;
@@ -80,7 +98,10 @@ span{
 
 
 .banner{
-  height:175px;
+  height:160px;
+  width: 960px;
+  background: #fff;
+  margin: 13px auto;
 }
 
 .grid{
@@ -245,4 +266,13 @@ span{
 
 .row a{
   text-decoration:none;
+}
+
+.fullbg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
