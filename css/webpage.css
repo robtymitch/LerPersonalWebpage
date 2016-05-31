@@ -10,12 +10,11 @@ body .main .container{
 
 .constrained {
     margin: 0px auto 0px auto;
-    width: 1250px;
+    width: 980px;
 }
 
 .left{
   float: left;
-  margin-left: 80px;
 }
 
 .left img{
@@ -26,14 +25,32 @@ span{
   color: orange;
 }
 
-.left-list{
+.header .left-list{
   text-align: left;
   float: right;
   vertical-align: middle;
+  margin-top:17px;
+  font-size:14px;
 }
+
+.header{
+  padding: 9px 0px 9px 0px;
+}
+
+.header ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+
 
 .right .right-list{
   text-align:center;
+  float:right
+}
+
+.clear{
+  clear:both;
 }
 
 .header li{
@@ -47,14 +64,12 @@ span{
 }
 
 
-.form-group{
+.searchbar{
   float:right;
-  margin-top:-50px;
+  margin-top:12px;
+  margin-left:10px;
 }
 
-.form-control{
-  margin-right:20px;
-}
 
 .banner{
   height:175px;
