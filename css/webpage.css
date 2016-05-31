@@ -183,7 +183,7 @@ body .main {
   font-weight:bold;
 }
 
-.grid-list .grid-li-3{
+.grid-list .gridheader-right{
   color:blue;
   padding-right:0px;
   margin-right:10px;
@@ -191,7 +191,7 @@ body .main {
   margin-top:-60px;
 }
 
-.col-md-0{
+.grid-pic{
   display:inline-block;
   background-color:white;
   padding:10px 9px 0px 9px;
@@ -204,48 +204,52 @@ body .main {
   color:black;
 }
 
-.col-md-0 .paragraph{
+.grid-pic a{
+  color:black;
+}
+
+.grid-pic .paragraph{
   margin-top:-10px;
 }
 
-.col-md-0 img{
+.grid-pic img{
   width: 125px;
   height: 187px;
   display: block;
   margin-bottom: 8px;
 }
 
-.col-md-2{
+.sidebar{
   float:right;
   text-align:left;
   font-size:15px;
   margin:-275px 15px 15px 15px;
 }
 
-.col-md-2 h3{
+.sidebar h3{
   border-top:1px solid gray;
   padding-top:15px;
 }
 
-.col-md-2 ul{
+.sidebar ul{
   margin-bottom:0px;
 }
 
-.col-md-2 ul li{
+.sidebar ul li{
   display:inline-block;
   color:black;
 }
 
-.col-md-2 .icon{
+.sidebar .icon{
   margin-bottom:4px;
 }
 
-.col-md-2 a{
+.sidebar a{
   text-decoration:none;
   color:blue;
 }
 
-.col-md-6 {
+.bottom-grid-button{
   border: 1px solid #ccc;
   margin-left: 5px;
   margin-right: 316px;
@@ -253,9 +257,10 @@ body .main {
   text-align:center;
   border-radius:4px;
   text-decoration:none;
+  width:640px;
 }
 
-.col-md-6 h3{
+.bottom-grid-button h3{
   color: #3f3f3f;
   padding:0px;
   margin:10px;
@@ -272,4 +277,12 @@ body .main {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.grid-pic:hover{
+  border:solid 1px darkgray;
+}
+
+.bottom-grid-button:hover{
+  border:solid 1px darkgray;
 }
