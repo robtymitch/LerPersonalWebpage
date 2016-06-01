@@ -3,9 +3,11 @@ margin:0px;
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+body {
+    background: url(http://img1.ak.crunchyroll.com/i/spire2/7e5d7f0990eee68532fbe643792c13eb1460582156_main.jpg) no-repeat 50% scroll;
+}
+
 body .main {
-  background: url(http://img1.ak.crunchyroll.com/i/spire2/7e5d7f0990eee68532fbe643792c13eb1460582156_main.jpg) no-repeat fixed;
-  background-size: cover;
   position: relative;
 }
 
