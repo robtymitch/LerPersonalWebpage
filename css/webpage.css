@@ -232,7 +232,8 @@ body .main {
 }
 
 .sidebar ul{
-  margin-bottom:0px;
+  padding: 0px;
+  padding-left: 3px;
 }
 
 .sidebar ul li{
@@ -247,6 +248,11 @@ body .main {
 .sidebar a{
   text-decoration:none;
   color:blue;
+}
+
+.sidebar ul:hover{
+  background-color: white;
+  border: 1px solid lightgray;
 }
 
 .bottom-grid-button{
@@ -267,7 +273,7 @@ body .main {
 }
 
 .row a{
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .fullbg {
@@ -280,9 +286,36 @@ body .main {
 }
 
 .grid-pic:hover{
-  border:solid 1px darkgray;
+  border: solid 1px darkgray;
 }
 
 .bottom-grid-button:hover{
-  border:solid 1px darkgray;
+  border: solid 1px darkgray;
+}
+
+.footer{
+  background: #E8F4F8;
+}
+
+.footer ul{
+  padding: 0px 1%;
+  margin: 0px;
+  display: inline-block;
+  list-style: none;
+  width: 14%;
+  vertical-align: top;
+  text-align: left;
+}
+
+.footer a{
+  text-decoration:none;
+}
+
+.footer ul li{
+  color: #888;
+  font-size: 11px;
+}
+
+.footer ul li h6{
+  font-size: 11px;
 }
