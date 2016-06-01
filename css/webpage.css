@@ -297,6 +297,13 @@ body .main {
   border: 1px solid #ccc;
   text-align:center;
   border-radius:4px;
+  margin: 10px 0 10px 10px;
+  font-size: 13px;
+  background: rgb(255,255,255);
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 );
 }
 
 .bottom-grid-button h3{
@@ -327,7 +334,7 @@ body .main {
 }
 
 .footer{
-  background: #E8F4F8;
+  background: #f2f2f2;
 }
 
 .footer ul{
@@ -358,15 +365,15 @@ body .main {
 }
 
 .new{
-  position: absolute;
+    vertical-align: super;
+    font-size: 10px;
 }
 
 .footerlist-policy{
-  position: relative;
 }
 
 .social-media{
-  background: #E8F4F8;
+  background: #f2f2f2;
 }
 
 .social-list{
