@@ -424,15 +424,6 @@ and (max-device-width : 1024px)  {
     padding: 9px 9px 6px 9px;
   }
 
-  .right .right-list{
-    text-align:center;
-    float:right
-  }
-
-  .clear{
-    clear:both;
-  }
-
   .header li{
     display:inline;
     padding:10px;
