@@ -35,7 +35,7 @@ body .main {
     text-decoration: none;
     position: relative;
 }
-.header .left-list a:hover, .header .left-list li.active a {
+.header .left-list a:hover, .header .left-list li.active a, .footer a:hover, .footer li.active a, .new{
     color: rgb(247, 140, 37);
 }
 
@@ -259,7 +259,6 @@ body .main {
   border: 1px solid #ccc;
   margin-left: 5px;
   margin-right: 316px;
-  margin-bottom:50px;
   text-align:center;
   border-radius:4px;
   text-decoration:none;
@@ -299,23 +298,51 @@ body .main {
 
 .footer ul{
   padding: 0px 1%;
-  margin: 0px;
   display: inline-block;
   list-style: none;
-  width: 14%;
+  width: 13%;
   vertical-align: top;
   text-align: left;
+  margin-top: 25px;
+  margin-left: 10px;
 }
 
 .footer a{
-  text-decoration:none;
+  text-decoration: none;
 }
 
-.footer ul li{
+.footer ul li a{
   color: #888;
   font-size: 11px;
 }
 
 .footer ul li h6{
   font-size: 11px;
+  color: #777;
+  margin: 0px;
+  margin-top: 14px;
+}
+
+.new{
+  position: absolute;
+}
+
+.footerlist-policy{
+  position: relative;
+}
+
+.social-media{
+  background: #E8F4F8;
+}
+
+.social-list{
+  margin: 0px;
+  list-style: none;
+  padding:0px 0px 30px 20px;
+}
+
+.social-list li{
+  display: inline-block;
+  margin-right:20px;
+
 }
