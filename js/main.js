@@ -21,6 +21,19 @@ $.fn.followTo = function () {
       });
     }
   });
+  $window.load(function (e) {
+    if ($window.scrollTop() > pos) {
+      $this.css({
+        'background-position': 'center 0px',
+        'background-attachment': 'fixed'
+      });
+    } else {
+      $this.css({
+        'background-position': 'center ' + pos + 'px',
+        'background-attachment': 'scroll'
+      });
+    }
+  });
 };
 
 jQuery(document).ready(function() {

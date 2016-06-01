@@ -107,7 +107,7 @@ body .main {
 }
 
 .grid{
-  background:#E8F4F8;
+  background:#f2f2f2;
 }
 
 .grid-header{
@@ -225,7 +225,8 @@ body .main {
   float:right;
   text-align:left;
   font-size:15px;
-  margin:-275px 15px 15px 15px;
+  margin:0 15px 15px 0;
+  width: 300px;
 }
 
 .sidebar h3{
@@ -236,12 +237,13 @@ body .main {
 .sidebar ul{
   padding: 0px;
   padding-left: 3px;
-  border: solid 1px transparent;
 }
 
 .sidebar ul li{
-  display:inline-block;
+  display: block;
   color:black;
+  border: solid 1px transparent;
+  margin: 4px 0;
 }
 
 .sidebar .icon{
@@ -253,19 +255,48 @@ body .main {
   color:blue;
 }
 
-.sidebar ul:hover{
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.sidebar ul li:hover{
   background-color: white;
   border: 1px solid lightgray;
 }
 
-.bottom-grid-button{
+.quick-anime img {
+    float: left;
+    width: 50px;
+    height: 75px;
+    margin-right: 12px;
+}
+
+.quick-anime a {
+    display: block;
+    padding: 3px;
+    font-size: 13px;
+    color: #000;
+}
+.quick-anime a:hover {
+    text-decoration: none;
+}
+
+.quick-anime p {
+    margin-top: 0;
+    font-size: 11px;
+    color: #808080;
+}
+
+.quick-anime li:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.bottom-grid-button {
   border: 1px solid #ccc;
-  margin-left: 5px;
-  margin-right: 316px;
   text-align:center;
   border-radius:4px;
-  text-decoration:none;
-  width:640px;
 }
 
 .bottom-grid-button h3{
@@ -348,4 +379,9 @@ body .main {
   display: inline-block;
   margin-right:20px;
 
+}
+
+.grid-pic-container {
+    float: left;
+    width: 635px;
 }
