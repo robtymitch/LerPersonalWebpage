@@ -234,6 +234,7 @@ body .main {
 .sidebar ul{
   padding: 0px;
   padding-left: 3px;
+  border: solid 1px transparent;
 }
 
 .sidebar ul li{
