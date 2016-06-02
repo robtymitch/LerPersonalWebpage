@@ -245,6 +245,7 @@ body .main {
   display: block;
   color:black;
   border: solid 1px transparent;
+  padding: 3px;
   margin: 4px 0;
 }
 
@@ -275,7 +276,6 @@ body .main {
 
 .quick-anime a {
     display: block;
-    padding: 3px;
     font-size: 13px;
     color: #000;
 }
@@ -403,95 +403,39 @@ body .main {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)  {
 
-  .constrained {
-      margin: 0px auto 0px auto;
-      width: 100%;
-  }
-
-  .left img{
-    margin-top: 8px;
-  }
-
-  .header .left-list{
-    text-align: left;
-    float: right;
-    vertical-align: middle;
-    margin-top:17px;
-    font-size:14px;
+  .constrained{
+    width: 100%;
   }
 
   .header{
-    padding: 9px 9px 6px 9px;
+    padding-top: 6px;
   }
 
-  .header li{
-    display:inline;
-    padding:10px;
-    font-weight:bold;
+  .left{
+    margin-left: 9px;
   }
 
   .header li img{
-    margin-left:-15px;
+    margin: auto;
   }
 
 
   .searchbar{
     float:right;
-    margin-top:6px;
-    margin-left:10px;
+    margin:6px 9px;
 
   }
-
-  .searchinput{
-    background:url(../images/LookingGlass.jpg) no-repeat right 4px center;
-    padding:7px;
-    border-radius:2px;
-    border:1px solid rgb(206, 202, 202);
-  }
-
 
   .banner{
     height:160px;
     width: 100%;
     margin: 0px;
     padding: 0px;
-
   }
+
   .banner img{
     width: 100%;
     height: 100%;
-  }
-
-  .grid{
-    background:#f2f2f2;
-  }
-
-  .grid-header{
-    background-color:gray;
-    margin-top:0px;
-    margin-left:10px;
-    margin-right:10px;
-  }
-
-  .grid-header a{
-    text-decoration:none;
-    background-color:darkgray;
-    display: block;
-    padding:12px 20px;
-    padding-top:8px;
-    font-weight:bold;
-    margin: 4px 4px 0 0;
-    font-size: 14px;
-  }
-
-  .grid-header .ul-a1{
-    color:black;
-    background-color:white;
-  }
-
-  .grid-header .ul-a2{
-    color:white;
-    background-color:#3a3a3a;
   }
 
   .grid-header ul{
@@ -510,16 +454,18 @@ and (max-device-width : 1024px)  {
     margin-top:-16px;
     margin-left: 10px;
     margin-right: 10px;
-    height:42px;
     border-bottom: 1px solid lightgray;
     border-left: 1px solid lightgray;
     border-right: 1px solid lightgray;
   }
 
   .grid-list ul{
-    padding-left:0px;
+    padding: 0px;
     margin-left:30px;
-    line-height: 43px;
+    margin-bottom: -30px;
+    width:50%;
+    margin-right: 0px;
+
   }
 
   .grid-list a{
@@ -544,10 +490,13 @@ and (max-device-width : 1024px)  {
 
   .grid-list .gridheader-right{
     color:blue;
-    padding-right:0px;
-    margin-right:10px;
+    padding: 0px;
     float:right;
-    margin-top:-60px;
+    margin: 0px 10px 0px 0px;
+  }
+
+  .gridheader-right p{
+    margin: 0px;
   }
 
   .grid-pic{
@@ -589,6 +538,7 @@ and (max-device-width : 1024px)  {
   .sidebar h3{
     border-top:1px solid gray;
     padding-top:15px;
+    margin-top: 11px;
   }
 
   .sidebar ul{
@@ -630,7 +580,6 @@ and (max-device-width : 1024px)  {
 
   .quick-anime a {
       display: block;
-      padding: 3px;
       font-size: 13px;
       color: #000;
   }
