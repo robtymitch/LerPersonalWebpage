@@ -10,10 +10,9 @@ body {
 body .main {
   position: relative;
 }
-strong:hover {
-  color: #428DB7;
+.title {
+  font-weight: bold;
 }
-
 .constrained {
     margin: 0px auto 0px auto;
     width: 980px;
@@ -174,10 +173,6 @@ a {
 .grid-list a {
   text-decoration:none;
 }
-.grid-list a:hover {
-  text-decoration:none;
-  color: #0A76B7;
-}
 
 .grid-list li {
   display:inline;
@@ -217,12 +212,18 @@ a {
   margin-right:0px;
   border: 1px solid lightgray;
   color:black;
+  width: 125px
 }
 
 .grid-pic a {
   color:black;
 }
 
+.grid-pic .title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .grid-pic .paragraph {
   margin-top:-10px;
 }
@@ -335,6 +336,10 @@ a {
 
 .grid-pic:hover {
   border: solid 1px darkgray;
+}
+
+.grid-pic:hover .title {
+  color: #0A76B7;
 }
 
 .bottom-grid-button:hover {
