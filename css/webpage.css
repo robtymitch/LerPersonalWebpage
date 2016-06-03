@@ -1,4 +1,4 @@
-body{
+body {
 margin:0px;
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -16,15 +16,15 @@ body .main {
     width: 980px;
 }
 
-.left{
+.left {
   float: left;
 }
 
-.left img{
+.left img {
   margin-top: 8px;
 }
 
-.header .left-list{
+.header .left-list {
   text-align: left;
   float: right;
   vertical-align: middle;
@@ -37,15 +37,15 @@ body .main {
     text-decoration: none;
     position: relative;
 }
-.header .left-list a:hover, .header .left-list li.active a, .footer a:hover, .footer li.active a, .new{
+.header .left-list a:hover, .header .left-list li.active a, .footer a:hover, .footer li.active a, .new {
     color: rgb(247, 140, 37);
 }
 
-.header{
+.header {
   padding: 9px 0px 9px 0px;
 }
 
-.header ul{
+.header ul {
   margin: 0px;
   padding: 0px;
 }
@@ -64,34 +64,34 @@ body .main {
     z-index: 2;
 }
 
-.right .right-list{
+.right .right-list {
   text-align:center;
   float:right
 }
 
-.clear{
+.clear {
   clear:both;
 }
 
-.header li{
+.header li {
   display:inline;
   padding:10px;
   font-weight:bold;
 }
 
-.header li img{
+.header li img {
   margin-left:-15px;
 }
 
 
-.searchbar{
+.searchbar {
   float:right;
   margin-top:6px;
   margin-left:10px;
 
 }
 
-.searchinput{
+.searchinput {
   background:url(../images/LookingGlass.jpg) no-repeat right 4px center;
   padding:7px;
   border-radius:2px;
@@ -99,7 +99,7 @@ body .main {
 }
 
 
-.banner{
+.banner {
   height:160px;
   width: 960px;
   margin: 0 auto;
@@ -107,18 +107,18 @@ body .main {
   z-index: 3;
 }
 
-.grid{
+.grid {
   background:#f2f2f2;
 }
 
-.grid-header{
+.grid-header {
   background-color:gray;
   margin-top:0px;
   margin-left:10px;
   margin-right:10px;
 }
 
-.grid-header a{
+.grid-header a {
   text-decoration:none;
   background-color:darkgray;
   display: block;
@@ -129,28 +129,28 @@ body .main {
   font-size: 14px;
 }
 
-.grid-header .ul-a1{
+.grid-header .ul-a1 {
   color:black;
   background-color:white;
 }
 
-.grid-header .ul-a2{
+.grid-header .ul-a2 {
   color:white;
   background-color:#3a3a3a;
 }
 
-.grid-header ul{
+.grid-header ul {
   margin: 0;
   padding-left:4px;
 }
 
-.grid-header li{
+.grid-header li {
   display: block;
   float: left;
   margin-bottom: 0px;
 }
 
-.grid-list{
+.grid-list {
   background-color:white;
   margin-top:-16px;
   margin-left: 10px;
@@ -161,33 +161,33 @@ body .main {
   border-right: 1px solid lightgray;
 }
 
-.grid-list ul{
+.grid-list ul {
   padding-left:0px;
   margin-left:30px;
   line-height: 43px;
 }
 
-.grid-list a{
+.grid-list a {
   text-decoration:none;
 }
 
-.grid-list li{
+.grid-list li {
   display:inline;
   margin-right:5px;
   font-size:14px;
 }
 
-.grid-list .grid-li-1{
+.grid-list .grid-li-1 {
   color:black;
   font-weight:bold;
 }
 
-.grid-list .grid-li-2{
+.grid-list .grid-li-2 {
   color:gray;
   font-weight:bold;
 }
 
-.grid-list .gridheader-right{
+.grid-list .gridheader-right {
   color:blue;
   padding-right:0px;
   margin-right:10px;
@@ -195,7 +195,7 @@ body .main {
   margin-top:-60px;
 }
 
-.grid-pic{
+.grid-pic {
   display:inline-block;
   background-color:white;
   padding:10px 9px 0px 9px;
@@ -208,22 +208,22 @@ body .main {
   color:black;
 }
 
-.grid-pic a{
+.grid-pic a {
   color:black;
 }
 
-.grid-pic .paragraph{
+.grid-pic .paragraph {
   margin-top:-10px;
 }
 
-.grid-pic img{
+.grid-pic img {
   width: 125px;
   height: 187px;
   display: block;
   margin-bottom: 8px;
 }
 
-.sidebar{
+.sidebar {
   float:right;
   text-align:left;
   font-size:15px;
@@ -231,17 +231,17 @@ body .main {
   width: 300px;
 }
 
-.sidebar h3{
+.sidebar h3 {
   border-top:1px solid gray;
   padding-top:15px;
 }
 
-.sidebar ul{
+.sidebar ul {
   padding: 0px;
   padding-left: 3px;
 }
 
-.sidebar ul li{
+.sidebar ul li {
   display: block;
   color:black;
   border: solid 1px transparent;
@@ -249,7 +249,7 @@ body .main {
   margin: 4px 0;
 }
 
-.sidebar .icon{
+.sidebar .icon {
   margin-bottom:4px;
 }
 
@@ -262,7 +262,7 @@ body .main {
     text-decoration: underline;
 }
 
-.sidebar ul li:hover{
+.sidebar ul li:hover {
   background-color: white;
   border: 1px solid lightgray;
 }
@@ -308,13 +308,13 @@ body .main {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 );
 }
 
-.bottom-grid-button h3{
+.bottom-grid-button h3 {
   color: #3f3f3f;
   padding:0px;
   margin:10px;
 }
 
-.row a{
+.row a {
   text-decoration: none;
 }
 
@@ -327,19 +327,19 @@ body .main {
     left: 0;
 }
 
-.grid-pic:hover{
+.grid-pic:hover {
   border: solid 1px darkgray;
 }
 
-.bottom-grid-button:hover{
+.bottom-grid-button:hover {
   border: solid 1px darkgray;
 }
 
-.footer{
+.footer {
   background: #f2f2f2;
 }
 
-.footer ul{
+.footer ul {
   padding: 0px 1%;
   display: inline-block;
   list-style: none;
@@ -350,41 +350,41 @@ body .main {
   margin-left: 10px;
 }
 
-.footer a{
+.footer a {
   text-decoration: none;
 }
 
-.footer ul li a{
+.footer ul li a {
   color: #888;
   font-size: 11px;
 }
 
-.footer ul li h6{
+.footer ul li h6 {
   font-size: 11px;
   color: #777;
   margin: 0px;
   margin-top: 14px;
 }
 
-.new{
+.new {
     vertical-align: super;
     font-size: 10px;
 }
 
-.footerlist-policy{
+.footerlist-policy {
 }
 
-.social-media{
+.social-media {
   background: #f2f2f2;
 }
 
-.social-list{
+.social-list {
   margin: 0px;
   list-style: none;
   padding:0px 0px 30px 20px;
 }
 
-.social-list li{
+.social-list li {
   display: inline-block;
   margin-right:20px;
 
@@ -401,55 +401,55 @@ body .main {
 
 @media only screen
 and (min-device-width : 768px)
-and (max-device-width : 1024px)  {
+and (max-device-width : 1024px) {
 
-  .constrained{
+  .constrained {
     width: 100%;
   }
 
-  .header{
+  .header {
     padding-top: 6px;
   }
 
-  .left{
+  .left {
     margin-left: 9px;
   }
 
-  .header li img{
+  .header li img {
     margin: auto;
   }
 
 
-  .searchbar{
+  .searchbar {
     float:right;
     margin:6px 9px;
 
   }
 
-  .banner{
+  .banner {
     height:160px;
     width: 100%;
     margin: 0px;
     padding: 0px;
   }
 
-  .banner img{
+  .banner img {
     width: 100%;
     height: 100%;
   }
 
-  .grid-header ul{
+  .grid-header ul {
     margin: 0;
     padding-left:4px;
   }
 
-  .grid-header li{
+  .grid-header li {
     display: block;
     float: left;
     margin-bottom: 0px;
   }
 
-  .grid-list{
+  .grid-list {
     background-color:white;
     margin-top:-16px;
     margin-left: 10px;
@@ -459,7 +459,7 @@ and (max-device-width : 1024px)  {
     border-right: 1px solid lightgray;
   }
 
-  .grid-list ul{
+  .grid-list ul {
     padding: 0px;
     margin-left:30px;
     margin-bottom: -30px;
@@ -468,36 +468,36 @@ and (max-device-width : 1024px)  {
 
   }
 
-  .grid-list a{
+  .grid-list a {
     text-decoration:none;
   }
 
-  .grid-list li{
+  .grid-list li {
     display:inline;
     margin-right:5px;
     font-size:14px;
   }
 
-  .grid-list .gridheader-right{
+  .grid-list .gridheader-right {
     color:blue;
     padding: 0px;
     float:right;
     margin: 0px 10px 0px 0px;
   }
 
-  .gridheader-right p{
+  .gridheader-right p {
     margin: 0px;
   }
 
-  .grid-pic{
+  .grid-pic {
     font-size: 13px;
   }
 
-  .sidebar{
+  .sidebar {
     font-size: 17px;
   }
 
-  .sidebar ul{
+  .sidebar ul {
     padding: 0px;
     padding-left: 0px;
   }
@@ -516,11 +516,11 @@ and (max-device-width : 1024px)  {
     font-size: 15px;
   }
 
-  .footer ul li a{
+  .footer ul li a {
     font-size: 13px;
   }
 
-  .footer ul li h6{
+  .footer ul li h6 {
     font-size: 14px;
     margin-bottom: 5px;
   }
@@ -530,74 +530,74 @@ and (max-device-width : 1024px)  {
 
 @media only screen
 and (max-device-width : 768px) {
-  .constrained{
+  .constrained {
     width: 100%;
   }
 
-  .header{
+  .header {
     padding-top: 6px;
     text-align: left;
     background: white;
   }
 
-  .left{
+  .left {
     width: 70.2%;
     margin: 0px 16% 0px 16%;
   }
 
-.left img{
+.left img {
   width: 150px;
   height: 34px;
 }
 
-  .header .left-list{
+  .header .left-list {
     font-size: 20px;
   }
 
-  .right{
+  .right {
     margin: auto;
     width: 45%;
   }
 
-  .header li img{
+  .header li img {
     margin: auto;
     height: 50px;
     width: 50px;
   }
 
-.searchinput{
+.searchinput {
   padding: 15px;
 }
 
-  .searchbar{
+  .searchbar {
     float: right;
     margin: 6px 9px;
   }
 
-  .banner{
+  .banner {
     height: 160px;
     width: 100%;
     margin: 0px;
     padding: 0px;
   }
 
-  .banner img{
+  .banner img {
     width: 100%;
     height: 100%;
   }
 
-  .grid-header ul{
+  .grid-header ul {
     margin: 0;
     padding-left:4px;
   }
 
-  .grid-header li{
+  .grid-header li {
     display: block;
     float: left;
     margin-bottom: 0px;
   }
 
-  .grid-list{
+  .grid-list {
     background-color:white;
     margin-top:-16px;
     margin-left: 10px;
@@ -607,7 +607,7 @@ and (max-device-width : 768px) {
     border-right: 1px solid lightgray;
   }
 
-  .grid-list ul{
+  .grid-list ul {
     padding: 0px;
     margin-left:30px;
     margin-bottom: -30px;
@@ -616,57 +616,57 @@ and (max-device-width : 768px) {
 
   }
 
-  .grid-list a{
+  .grid-list a {
     text-decoration:none;
   }
 
-  .grid-list li{
+  .grid-list li {
     display:inline;
     margin-right:5px;
     font-size:20px;
   }
-  .grid-header a{
+  .grid-header a {
     font-size: 20px;
   }
 
-  .grid-list .gridheader-right{
+  .grid-list .gridheader-right {
     color:blue;
     padding: 0px;
     float:right;
     margin: 0px 10px 0px 0px;
   }
 
-  .gridheader-right p{
+  .gridheader-right p {
     margin: 0px;
     font-size: 20px;
   }
 
-  .grid-pic-container{
+  .grid-pic-container {
     width: 100%;
   }
 
-  .grid-pic{
+  .grid-pic {
     font-size: 13px;
     width: 46.25%;
   }
 
-  .grid-pic img{
+  .grid-pic img {
      display: inherit;
      width: 200px;
      height: 250px;
   }
 
-  .grid-pic .grid-hover p{
+  .grid-pic .grid-hover p {
     text-align: left;
     width: 50%;
   }
 
-  .gridpic-textblock{
+  .gridpic-textblock {
     float: right;
     font-size: 25px;
   }
 
-  .sidebar{
+  .sidebar {
     font-size: 20px;
     float: left;
     width: 50%;
@@ -681,7 +681,7 @@ and (max-device-width : 768px) {
       font-size: 18px;
   }
 
-  .quick-anime img{
+  .quick-anime img {
     width: 100px;
     height: 150px;
   }
@@ -691,11 +691,11 @@ and (max-device-width : 768px) {
     width: 97.75%;
   }
 
-  .footer ul li a{
+  .footer ul li a {
     font-size: 18px;
   }
 
-  .footer ul li h6{
+  .footer ul li h6 {
     font-size: 20px;
     margin-bottom: 5px;
   }
