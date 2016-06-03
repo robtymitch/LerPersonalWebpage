@@ -602,7 +602,7 @@ and (max-device-width : 768px) {
     padding: 0px;
     margin-left:30px;
     margin-bottom: -30px;
-    width:50%;
+    width:53%;
     margin-right: 0px;
 
   }
@@ -614,7 +614,10 @@ and (max-device-width : 768px) {
   .grid-list li{
     display:inline;
     margin-right:5px;
-    font-size:14px;
+    font-size:17px;
+  }
+  .grid-header a{
+    font-size: 17px;
   }
 
   .grid-list .gridheader-right{
@@ -626,14 +629,39 @@ and (max-device-width : 768px) {
 
   .gridheader-right p{
     margin: 0px;
+    font-size: 20px;
+  }
+
+  .grid-pic-container{
+    width: 100%;
   }
 
   .grid-pic{
     font-size: 13px;
+    width: 46.25%;
+  }
+
+  .grid-pic img{
+     display: inherit;
+     width: 200px;
+     height: 250px;
+  }
+
+  .grid-pic .grid-hover p{
+    text-align: left;
+    width: 50%;
+  }
+
+  .gridpic-textblock{
+    float: right;
+    font-size: 25px;
   }
 
   .sidebar{
-    font-size: 17px;
+    font-size: 20px;
+    float: left;
+    width: 50%;
+    margin: 0px 25%;
   }
 
   .sidebar ul{
@@ -642,25 +670,24 @@ and (max-device-width : 768px) {
   }
 
   .quick-anime a {
-      font-size: 15px;
+      font-size: 20px;
   }
 
   .quick-anime p {
-      margin-top: 0;
-      font-size: 13px;
-      color: #808080;
+      font-size: 18px;
   }
 
   .bottom-grid-button {
-    font-size: 15px;
+    font-size: 20px;
+    width: 97.75%;
   }
 
   .footer ul li a{
-    font-size: 13px;
+    font-size: 18px;
   }
 
   .footer ul li h6{
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 5px;
   }
 }
