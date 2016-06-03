@@ -171,6 +171,10 @@ a {
 .grid-list a {
   text-decoration:none;
 }
+.grid-list a:hover {
+  text-decoration:none;
+  color: #0A76B7;
+}
 
 .grid-list li {
   display:inline;
