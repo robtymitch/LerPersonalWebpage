@@ -49,9 +49,11 @@ jQuery(document).ready(function() {
     // Remove the naviation active class on all nav links
     $($gridnavLinks).removeClass('active');
     $(this).addClass('active');
-    
   });
+  $('#drama').click(function(){
+    $('#show1 img').attr('src','http://img1.ak.crunchyroll.com/i/spire1/3999468c85d84fec48ef4e9285126cdc1435357508_thumb.jpg');
 
+  });
 
 
 
