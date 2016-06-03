@@ -38,4 +38,23 @@ $.fn.followTo = function () {
 
 jQuery(document).ready(function() {
     $('body').followTo();
+    $('.grid-header li').click(function() {
+        var category = $(this).attr('class');
+        if(category === "anime"){
+          $(this).removeClass('active')
+          $(this).addClass('active')
+        }
+        else if(category === "drama"){
+
+        }
+        else if(category=== "pop"){
+
+        }
+
+    });
+
+
+
+
+
 });
