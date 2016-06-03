@@ -49,7 +49,7 @@ jQuery(document).ready(function() {
     // Remove the naviation active class on all nav links
     $($gridnavLinks).removeClass('active');
     $(this).addClass('active');
-
+    
   });
 
 
