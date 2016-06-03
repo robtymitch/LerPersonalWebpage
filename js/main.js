@@ -37,19 +37,20 @@ $.fn.followTo = function () {
 };
 
 jQuery(document).ready(function() {
+
   $('body').followTo();
+
   $('.grid-header li a').click(function(event) {
 
     event.preventDefault();
 
     var $this = $(this);
-    var category = $(this).attr('id');
     var $gridnavLinks = $('.grid-header li a');
 
     // Remove the naviation active class on all nav links
-    $($gridnavLinks).removeClass('active');
-    $(this).addClass('active');
-    
+    $gridnavLinks.removeClass('active');
+    $this.addClass('active');
+
   });
 
 
