@@ -161,6 +161,9 @@ body .main {
 a {
   text-decoration: none;
 }
+.grid-list a:hover {
+  color: #0A6DA4;
+}
 
 .grid-list ul {
   padding-left:0px;
