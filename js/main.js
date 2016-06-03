@@ -1,7 +1,7 @@
 $.fn.followTo = function () {
   var $this = this,
-      $window = $(window),
-      pos = 60;
+  $window = $(window),
+  pos = 60;
 
   $this.css({
     'background-position': 'center ' + pos + 'px',
@@ -37,29 +37,26 @@ $.fn.followTo = function () {
 };
 
 jQuery(document).ready(function() {
-    $('body').followTo();
-    $('a').click(function(event) {
-      event.preventDefault()
+  $('body').followTo();
+  $('.grid-header li a').click(function(event) {
+    event.preventDefault();
+    var category = $(this).attr('id');
+    var $anime = $('.grid-header li #anime');
+    var $drama = $('.grid-header li #drama');
+    var $pop = $('.grid-header li #pop');
+    if(category == "anime"){
+      $('a').removeClass('active');
+      $anime.addClass('active');
+    } else if(category == "drama"){
+      $('a').removeClass('active');
+      $drama.addClass('active');
+    } else if(category == "pop"){
+      $('a').removeClass('active');
+      $pop.addClass('active');
 
-    });
-        $('.grid-header li a').click(function() {
-        var category = $(this).attr('id');
-        var $anime = $('.grid-header li #anime');
-        var $drama = $('.grid-header li #drama');
-        var $pop = $('.grid-header li #pop');
-        if(category == "anime"){
-          $('a').removeClass('active');
-          $anime.addClass('active');
-        } else if(category == "drama"){
-          $('a').removeClass('active');
-          $drama.addClass('active');
-        } else if(category == "pop"){
-          $('a').removeClass('active');
-          $pop.addClass('active');
+    }
 
-        }
-
-    });
+  });
 
 
 
