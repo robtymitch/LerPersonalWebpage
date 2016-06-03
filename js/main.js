@@ -42,12 +42,16 @@ jQuery(document).ready(function() {
         var category = $(this).attr('class');
         if(category === "anime"){
           $(this).removeClass('active')
-          $(this).addClass('active')
+          $('#anime').addClass('active')
         }
         else if(category === "drama"){
+          $(this).removeClass('active')
+          $('#drama').addClass('active')
 
         }
         else if(category=== "pop"){
+          $(this).removeClass('active')
+          $('#pop').addClass('active')
 
         }
 
