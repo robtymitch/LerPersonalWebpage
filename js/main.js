@@ -39,23 +39,17 @@ $.fn.followTo = function () {
 jQuery(document).ready(function() {
   $('body').followTo();
   $('.grid-header li a').click(function(event) {
+
     event.preventDefault();
+
+    var $this = $(this);
     var category = $(this).attr('id');
-    var $anime = $('.grid-header li #anime');
-    var $drama = $('.grid-header li #drama');
-    var $pop = $('.grid-header li #pop');
-    if(category == "anime"){
-      $('a').removeClass('active');
-      $anime.addClass('active');
-    } else if(category == "drama"){
-      $('a').removeClass('active');
-      $drama.addClass('active');
-    } else if(category == "pop"){
-      $('a').removeClass('active');
-      $pop.addClass('active');
+    var $gridnavLinks = $('.grid-header li a');
 
-    }
-
+    // Remove the naviation active class on all nav links
+    $($gridnavLinks).removeClass('active');
+    $(this).addClass('active');
+    
   });
 
 
