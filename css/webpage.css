@@ -664,17 +664,17 @@ and (max-device-width : 768px) {
     margin: 0px 25%;
   }
 
-  .sidebar ul{
-    padding: 0px;
-    padding-left: 0px;
-  }
-
   .quick-anime a {
       font-size: 20px;
   }
 
   .quick-anime p {
       font-size: 18px;
+  }
+
+  .quick-anime img{
+    width: 100px;
+    height: 150px;
   }
 
   .bottom-grid-button {
