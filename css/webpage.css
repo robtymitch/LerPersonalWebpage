@@ -193,13 +193,16 @@ a {
 }
 
 .grid-list .gridheader-right {
-  color:blue;
+  color:#0A76B7;
   padding-right:0px;
   margin-right:10px;
   float:right;
   margin-top:-60px;
+  font-size: 15px;
 }
-
+.grid-list .gridheader-right p:hover {
+  text-decoration: underline;
+}
 .grid-pic {
   display:inline-block;
   background-color:white;
