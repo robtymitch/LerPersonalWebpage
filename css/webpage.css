@@ -28,7 +28,7 @@ body .main {
   text-align: left;
   float: right;
   vertical-align: middle;
-  margin-top:3%;
+  margin-top:17px;
   font-size:14px;
 }
 
@@ -56,7 +56,7 @@ body .main {
     font-weight: normal;
     position: absolute;
     top: -8px;
-    right: -20px;
+    right: -14px;
 }
 
 .main .constrained {
@@ -127,17 +127,15 @@ body .main {
   font-weight:bold;
   margin: 4px 4px 0 0;
   font-size: 14px;
+  color:white;
+  background-color:#3a3a3a;
 }
 
-.grid-header .ul-a1 {
+.grid-header .active {
   color:black;
   background-color:white;
 }
 
-.grid-header .ul-a2 {
-  color:white;
-  background-color:#3a3a3a;
-}
 
 .grid-header ul {
   margin: 0;
