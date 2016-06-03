@@ -10,6 +10,9 @@ body {
 body .main {
   position: relative;
 }
+strong:hover {
+  color: #428DB7;
+}
 
 .constrained {
     margin: 0px auto 0px auto;
