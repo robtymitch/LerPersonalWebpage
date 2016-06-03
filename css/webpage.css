@@ -158,6 +158,9 @@ body .main {
   border-left: 1px solid lightgray;
   border-right: 1px solid lightgray;
 }
+a {
+  text-decoration: none;
+}
 
 .grid-list ul {
   padding-left:0px;
@@ -311,11 +314,6 @@ body .main {
   padding:0px;
   margin:10px;
 }
-
-.row a {
-  text-decoration: none;
-}
-
 .fullbg {
     display: block;
     width: 100%;
