@@ -541,32 +541,41 @@ and (max-device-width : 768px) {
   }
 
   .left{
-    width: 64%;
+    width: 70.2%;
     margin: 0px 16% 0px 16%;
   }
 
+.left img{
+  width: 150px;
+  height: 34px;
+}
+
   .header .left-list{
-    font-size: 17px;
+    font-size: 20px;
   }
 
   .right{
     margin: auto;
-    width: 40%;
+    width: 45%;
   }
 
   .header li img{
     margin: auto;
+    height: 50px;
+    width: 50px;
   }
 
+.searchinput{
+  padding: 15px;
+}
 
   .searchbar{
-    float:right;
-    margin:6px 9px;
-
+    float: right;
+    margin: 6px 9px;
   }
 
   .banner{
-    height:160px;
+    height: 160px;
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -602,7 +611,7 @@ and (max-device-width : 768px) {
     padding: 0px;
     margin-left:30px;
     margin-bottom: -30px;
-    width:53%;
+    width:90%;
     margin-right: 0px;
 
   }
@@ -614,10 +623,10 @@ and (max-device-width : 768px) {
   .grid-list li{
     display:inline;
     margin-right:5px;
-    font-size:17px;
+    font-size:20px;
   }
   .grid-header a{
-    font-size: 17px;
+    font-size: 20px;
   }
 
   .grid-list .gridheader-right{
