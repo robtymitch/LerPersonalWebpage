@@ -137,9 +137,9 @@ jQuery(document).ready(function() {
       s1Img.attr('src','http://img1.ak.crunchyroll.com/i/spire1/0a46fd629f3d942d40528e310aaf60f31344473013_thumb.jpg');
       s1Title.text('TheInsaneGamefreak');
       s1Para.text('99 Videos');
-      s2Img.attr('src','http://img1.ak.crunchyroll.com/i/spire3/b656b7648c1e9fcd5b13dd6ff94b23391259055433_thumb.jpg');
-      s2Title.text('vistlip');
-      s2Para.text('6 videos');
+      s2Img.attr('src','http://img1.ak.crunchyroll.com/i/spire2/ec9edd88931b965309172339e48b6c801374534996_thumb.jpg');
+      s2Title.text('Maple Story')
+      s2Para.text('12 videos');
       s3Img.attr('src','http://img1.ak.crunchyroll.com/i/spire4/1616a4bbd747b09f6f45bf09afa87fd21426229534_thumb.jpg');
       s3Title.text('Crunchyroll Collection');
       s3Para.text('14 Videos');
@@ -167,6 +167,8 @@ jQuery(document).ready(function() {
     $(this).addClass('active');
 
   });
+
+
 
 
 
