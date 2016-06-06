@@ -543,6 +543,9 @@ and (max-device-width : 1024px) {
     font-size: 14px;
     margin-bottom: 5px;
   }
+  .social-list {
+    text-align: center;
+  }
 }
 
 
@@ -712,7 +715,9 @@ and (max-device-width : 768px) {
     font-size: 20px;
     width: 97.75%;
   }
-
+.footer ul {
+  width: 30%;
+}
   .footer ul li a {
     font-size: 18px;
   }
@@ -720,5 +725,8 @@ and (max-device-width : 768px) {
   .footer ul li h6 {
     font-size: 20px;
     margin-bottom: 5px;
+  }
+  .social-list {
+    text-align: center;
   }
 }
