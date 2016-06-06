@@ -308,23 +308,23 @@ a {
     text-decoration: none;
 }
 
-.feature1:hover{
+.feature1 a:hover {
   color: #0A76B7;
 }
 
-.feature2:hover{
+.feature2 a:hover {
   color: #0A76B7;
 }
 
-.feature3:hover{
+.feature3 a:hover {
   color: #0A76B7;
 }
 
-.feature4:hover{
+.feature4 a:hover {
   color: #0A76B7;
 }
 
-.feature5:hover{
+.feature5 a:hover {
   color: #0A76B7;
 }
 
