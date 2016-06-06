@@ -502,8 +502,17 @@ and (max-device-width : 1024px) {
 
   .grid-pic {
     font-size: 13px;
+    width: 40%;
+  }
+  .grid-pic img {
+    width: 80%;
+    height: auto;
+    padding-left: 25%;
   }
 
+.grid-pic-container {
+  width: 60%;
+}
   .sidebar {
     font-size: 17px;
   }
@@ -652,19 +661,22 @@ and (max-device-width : 768px) {
     font-size: 20px;
   }
 
-  .grid-pic-container {
-    width: 100%;
+  .grid-pic {
+    font-size: 13px;
+    width: 40%;
   }
+  .grid-pic img {
+    width: 80%;
+    height: auto;
+  }
+
+.grid-pic-container {
+  width: 90%;
+}
 
   .grid-pic {
     font-size: 13px;
-    width: 46.25%;
-  }
-
-  .grid-pic img {
-     display: inherit;
-     width: 200px;
-     height: 250px;
+    width: 40%;
   }
 
   .grid-pic .grid-hover p {
