@@ -293,12 +293,19 @@ a {
 }
 .quick-anime a:hover {
     text-decoration: none;
+    color: #0A76B7;
 }
 
-.quick-anime p {
+.quick-anime .paragraph {
     margin-top: 0;
     font-size: 11px;
     color: #808080;
+}
+
+.quick-anime .title {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 10px;
 }
 
 .quick-anime li:after {

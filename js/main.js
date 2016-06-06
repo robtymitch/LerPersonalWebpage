@@ -57,7 +57,9 @@ jQuery(document).ready(function() {
     var s3Para = $('#show3 .paragraph')
     var s4Img = $('#show4 img');
     var s4Title = $('#show4 .title');
-    var s4Para = $('#show4 .paragraph')
+    var s4Para = $('#show4 .paragraph');
+    var f1Img = $('.feature1 img');
+    var f1Title = $('.feature1 .title');
 
     if(category === "anime"){
       s1Img.attr('src','http://img1.ak.crunchyroll.com/i/spire1/958243dc68ae929a6b9cb834165112471456969325_thumb.jpg');
