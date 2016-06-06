@@ -306,7 +306,26 @@ a {
 }
 .quick-anime a:hover {
     text-decoration: none;
-    color: #0A76B7;
+}
+
+.feature1:hover{
+  color: #0A76B7;
+}
+
+.feature2:hover{
+  color: #0A76B7;
+}
+
+.feature3:hover{
+  color: #0A76B7;
+}
+
+.feature4:hover{
+  color: #0A76B7;
+}
+
+.feature5:hover{
+  color: #0A76B7;
 }
 
 .quick-anime .paragraph {
