@@ -212,7 +212,8 @@ a {
   margin-right:0px;
   border: 1px solid lightgray;
   color:black;
-  width: 125px
+  width: 125px;
+  position: relative;
 }
 
 .grid-pic a {
@@ -240,8 +241,11 @@ a {
   display: inline;
   position:absolute;
   background-color: rgba(50,50,50,.9);
-  margin-top: 20px;
-  margin-left: 10px;
+  top: 0px;
+  left: 140px;
+  padding: 6px;
+  z-index: 5;
+  min-width: 200px;
 }
 
 .sidebar {
