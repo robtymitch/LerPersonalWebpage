@@ -168,17 +168,22 @@ jQuery(document).ready(function() {
 
   });
 
+  $('.grid-hover').hover(function(){
+    var $this = $(this);
+    $(this) ('.grid-hover a img').after('<div class="btn">Add to Queue</div>');
+  }, function() {
+    $('.btn').remove();
+
+});
+
+
   $('.grid-hover').hover(function() {
     var $this = $(this);
-    var $title = $(this).attr('.title')
-    $(this).append('<div class="hoverInfo">' + $title + '<p class="info">' + '</div>');
+
+    $(this).append('<div class="hoverInfo">' +'<p class="info">This paragraph is about the show i don\'t know what im doing</p>' + '</div>');
   }, function() {
     $('.hoverInfo').remove();
   });
-
-
-
-
 
 
 });
