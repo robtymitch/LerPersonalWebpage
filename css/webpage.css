@@ -304,29 +304,11 @@ a {
     font-size: 13px;
     color: #000;
 }
-.quick-anime a:hover {
+.quick-anime li:hover a{
     text-decoration: none;
+    color: #0A76B7;
 }
 
-.feature1 a:hover {
-  color: #0A76B7;
-}
-
-.feature2 a:hover {
-  color: #0A76B7;
-}
-
-.feature3 a:hover {
-  color: #0A76B7;
-}
-
-.feature4 a:hover {
-  color: #0A76B7;
-}
-
-.feature5 a:hover {
-  color: #0A76B7;
-}
 
 .quick-anime .paragraph {
     margin-top: 0;
@@ -710,6 +692,7 @@ and (max-device-width : 768px) {
   .grid-pic img {
     width: 80%;
     height: auto;
+    padding-left: 36px;
   }
 
 .grid-pic-container {
