@@ -514,6 +514,7 @@ and (max-device-width : 1024px) {
   .grid-pic img {
     width: 80%;
     height: auto;
+    padding: 5% 0 0 9%;
   }
 
 .grid-pic-container {
