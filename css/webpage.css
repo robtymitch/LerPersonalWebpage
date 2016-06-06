@@ -507,7 +507,6 @@ and (max-device-width : 1024px) {
   .grid-pic img {
     width: 80%;
     height: auto;
-    padding-left: 25%;
   }
 
 .grid-pic-container {
@@ -562,7 +561,7 @@ and (max-device-width : 768px) {
 
   .left {
     width: 70.2%;
-    margin: 0px 16% 0px 16%;
+    margin: 0px 10% 0px 10%;
   }
 
 .left img {
@@ -671,7 +670,7 @@ and (max-device-width : 768px) {
   }
 
 .grid-pic-container {
-  width: 90%;
+  width: 100%;
 }
 
   .grid-pic {
@@ -685,7 +684,7 @@ and (max-device-width : 768px) {
   }
 
   .gridpic-textblock {
-    float: right;
+    float: none;
     font-size: 25px;
   }
 
