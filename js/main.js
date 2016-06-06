@@ -168,6 +168,11 @@ jQuery(document).ready(function() {
 
   });
 
+  $('.grid-pic-container div').hover(function() {
+    $(this).after('<div class=hoverInfo> Show information goes here! </div>');
+  }, function() {
+    $('.hoverInfo').remove();
+  });
 
 
 
