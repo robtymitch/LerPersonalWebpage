@@ -170,8 +170,8 @@ jQuery(document).ready(function() {
 
   $('.grid-hover').hover(function() {
     var $this = $(this);
-
-    $(this).append('<div class="hoverInfo">Show information goes here!</div>');
+    var $title = $(this).attr('.title')
+    $(this).append('<div class="hoverInfo">' + $title + '<p class="info">' + '</div>');
   }, function() {
     $('.hoverInfo').remove();
   });
