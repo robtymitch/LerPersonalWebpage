@@ -235,6 +235,15 @@ a {
   margin-bottom: 8px;
 }
 
+.hoverInfo {
+  color: white;
+  display: inline;
+  position:absolute;
+  background-color: rgba(50,50,50,.9);
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
 .sidebar {
   float:right;
   text-align:left;
