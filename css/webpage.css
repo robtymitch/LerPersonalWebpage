@@ -312,7 +312,7 @@ a {
 
 .quick-anime .paragraph {
   margin-top: 0;
-  font-size: 11px;
+  font-size: 1.2em;
   color: #808080;
 }
 
@@ -535,7 +535,8 @@ and (max-device-width : 1024px) {
     width: 60%;
   }
   .sidebar {
-    font-size: 17px;
+    font-size: 1.1em;
+    width: 38%;
   }
 
   .sidebar ul {
@@ -721,7 +722,7 @@ and (max-device-width : 768px) {
   }
 
   .quick-anime p {
-    font-size: 18px;
+    font-size: 1.4em;
   }
 
   .quick-anime img {
