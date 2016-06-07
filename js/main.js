@@ -179,8 +179,8 @@ jQuery(document).ready(function() {
 
   $('.grid-hover').hover(function() {
     var $this = $(this);
-
-    $(this).append('<div class="hoverInfo">' +'<p class="info">This paragraph is about the show i don\'t know what im doing</p>' + '</div>');
+    var title = $(this).find('.title').text();
+    $(this).append('<div class="hoverInfo">' + title + '<p class="description"></p>' + '</div>');
   }, function() {
     $('.hoverInfo').remove();
   });
