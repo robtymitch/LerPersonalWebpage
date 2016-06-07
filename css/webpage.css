@@ -568,6 +568,7 @@ and (max-device-width : 1024px) {
 
   .bottom-grid-button {
     font-size: 15px;
+    width: 89%
   }
 
   .footer ul li a {
@@ -746,7 +747,7 @@ and (max-device-width : 768px) {
 
   .bottom-grid-button {
     font-size: 20px;
-    width: 97.75%;
+    width: 86%;
   }
   .footer ul {
     width: 30%;
