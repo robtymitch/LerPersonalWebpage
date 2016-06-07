@@ -253,8 +253,8 @@ a {
   display: inline;
   position:absolute;
   background-color: rgba(50,50,50,.9);
-  top: 0px;
-  left: 140px;
+  top: 25px;
+  left: 158px;
   padding: 6px;
   z-index: 5;
   min-width: 200px;
