@@ -236,6 +236,18 @@ a {
   margin-bottom: 8px;
 }
 
+.grid-hover button {
+  position: absolute;
+  color: white;
+  background-color: #0a76b7;
+  left: 14px;
+  top: 170px;
+  border-radius: 5px;
+  padding: 5px 18px 2px 18px;
+  border: none;
+  cursor: pointer;
+}
+
 .hoverInfo {
   color: white;
   display: inline;
