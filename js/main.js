@@ -169,8 +169,8 @@ jQuery(document).ready(function() {
   });
 
   $('.grid-hover').hover(function(){
-    var $this = $(this);
-    $(this) ('.grid-hover a img').after('<div class="btn">Add to Queue</div>');
+    var $this = $(this);  
+      $(this).prepend('<div class="btn">Add to Queue</div>');
   }, function() {
     $('.btn').remove();
 
