@@ -68,7 +68,7 @@ jQuery(document).ready(function() {
 
   $('.grid-hover').hover(function() {
     var $this = $(this);
-    var title = $this.find('.title').text();
+    var title = $this.find('.title').html();
     var description = $this.find('.description').text();
     $this.append('<div class="hoverInfo">' + title + '<br /><p>' + description  +'</p>' + '</div>');
   }, function() {
