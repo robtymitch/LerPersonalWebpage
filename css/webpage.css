@@ -252,7 +252,7 @@ a {
   color: white;
   display: inline;
   position:absolute;
-  background-color: rgba(50,50,50,.9);
+  background-color: rgba(50,50,50,1);
   top: 25px;
   left: 159px;
   padding: 6px;
