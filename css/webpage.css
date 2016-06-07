@@ -439,8 +439,24 @@ a {
   width: 635px;
 }
 
+.grid-tab-content {
+  display: none;
+}
+.grid-tab-content.active {
+  display: block;
+}
 
+.quick-anime {
+  display: none;
+}
 
+.quick-anime.active {
+  display: block;
+}
+
+.grid-pic .description {
+  display: none;
+}
 
 
 @media only screen
